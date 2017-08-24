@@ -1,0 +1,46 @@
+.App{
+  width : 100vw;
+  
+}
+
+.header{
+  position: fixed;
+  top : 0;
+  left : 0;
+  height : 28px;
+  width : 100vw;
+  z-index: 2;
+  background-color : #bb0000;
+  color : #fff;
+  box-shadow: 0 5px 2px 0 rgba(0,0,0,0.12);
+
+  text-align : center;
+  font-weight: bold;
+  font-size : 1.5em;
+}
+.content{
+  padding-top : 35px;
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+}
+.results{
+  padding : 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.videocard{
+  padding : 5px;
+  margin-top : 10px;
+  margin-bottom : 10px;
+
+  display: flex;
+  flex-direction : column;
+  align-items : center;
+}
+.videocard > .title{
+  margin-bottom : 2px;
+  margin-top : 2px;
+  width : 320px;
+}
